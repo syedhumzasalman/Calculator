@@ -18,23 +18,25 @@
   <body>
     <div class="container">
       <div class="calculatorarea">
-
-        <!-- heading -->
-        <!-- <div class="heading">
-          <div class="d-flex align-items-center gap-3">
+        <div class="calculator">
+          <!-- heading -->
+          <div class="heading">
+          <div class="d-flex align-items-center gap-3 ms-3">
             <img src="Images/calculator-img.png" alt="cal img" height="20px" />
             <h4>Calclator</h4>
           </div>
-          <h2>Standard</h2>
-        </div> -->
+          <h2 class="mar">Standard</h2>
+        </div>
 
-        <!-- Calculators buttons -->
-        <div class="calculator">
           <input type="text" placeholder="0" id="result" />
+
+          <!-- Calculators buttons -->
           <button onclick="display('%')">%</button>
           <button onclick="clr()">CE</button>
           <button onclick="clr()">C</button>
-          <button onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+          <button onclick="del()">
+            <i class="fa-solid fa-delete-left"></i>
+          </button>
           <button onclick="display('7')">7</button>
           <button onclick="display('8')">8</button>
           <button onclick="display('9')">9</button>
@@ -47,13 +49,15 @@
           <button onclick="display('2')">2</button>
           <button onclick="display('3')">3</button>
           <button class="fw-bold fs-5" onclick="display('-')">-</button>
-          <button onclick="display('/')"><i class="fa-solid fa-divide"></i></button>
+          <button onclick="display('/')">
+            <i class="fa-solid fa-divide"></i>
+          </button>
           <button onclick="display('0')">0</button>
           <button onclick="display('.')">.</button>
           <button class="equal" onclick="equal()">=</button>
         </div>
+      </div>
     </div>
-  </div>
     <script src="calculator.js"></script>
 
     <!-- Boostrap trap Scripts -->
