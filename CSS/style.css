@@ -4,12 +4,13 @@
   box-sizing: border-box;
 }
 
-.heading {
-  width: 20%;
-}
+/* .heading {
+  background-color: rgb(199, 188, 188);
+  height: auto;
+  width: 25%;
+} */
 
 .calculatorarea {
-  background-color: rgb(206, 200, 200);
   height: 100vh;
   width: 100%;
   display: flex;
@@ -19,13 +20,14 @@
 }
 
 .calculator {
+  background-color: rgb(199, 188, 188);
   height: 60%;
   display: grid;
   grid-template-columns: repeat(4, 70px);
 }
 
 input {
-    background-color: rgb(206, 200, 200);
+  background-color: rgb(199, 188, 188);
   grid-column: span 4;
   border: none;
   text-align: end;
@@ -40,7 +42,7 @@ button {
   background-color: white;
 }
 
-.equal{
-    background-color: blue;
-    color: white;
+.equal {
+  background-color: blue;
+  color: white;
 }
