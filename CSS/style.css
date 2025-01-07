@@ -32,6 +32,14 @@ input {
   text-align: end;
   font-size: large;
   padding: 5px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+input::placeholder{
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
 }
 
 button {
@@ -44,4 +52,11 @@ button {
 .equal {
   background-color: blue;
   color: white;
+}
+
+.standard{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 280px;
 }
