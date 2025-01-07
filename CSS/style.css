@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heading {
+  width: 20%;
+}
+
+.calculatorarea {
+  background-color: rgb(206, 200, 200);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.calculator {
+  height: 60%;
+  display: grid;
+  grid-template-columns: repeat(4, 70px);
+}
+
+input {
+    background-color: rgb(206, 200, 200);
+  grid-column: span 4;
+  border: none;
+  text-align: end;
+  font-size: large;
+  padding: 5px;
+}
+
+button {
+  border: none;
+  border-radius: 5px;
+  margin: 2px;
+}
