@@ -1,25 +1,25 @@
 
-let result = document.getElementById("result");
+let input = document.getElementById("input");
 
 
-function display(number){
-    result.value += number;
+function display(num){
+    input.value += num;
 }
 
 
 function equal(){
-   let finalNumber = result.value;
+   let finalNumber = input.value;
    let finalResult = eval(finalNumber);
-   result.value = finalResult;
+   input.value = finalResult;
 }
 
 
 function clr(){
-    result.value = "";
+    input.value = "";
 }
 
 function del(){
-    result.value = result.value.slice(0,-1)
+    input.value = input.value.slice(0,-1)
 }
 
 
