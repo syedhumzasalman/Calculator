@@ -37,4 +37,10 @@ button {
   border: none;
   border-radius: 5px;
   margin: 2px;
+  background-color: white;
+}
+
+.equal{
+    background-color: blue;
+    color: white;
 }
